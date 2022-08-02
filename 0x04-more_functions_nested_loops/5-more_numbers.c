@@ -1,0 +1,23 @@
+#include "main.h"
+
+/**
+* more_number - prints 10 thimes the nubers
+* followed by a ew lie
+*/
+
+void more_numbers(void)
+{
+int i ,j;
+for (i = 0; i < 10; i++)
+{
+for (j = 0; j < 15; j++)
+{
+if (j >= 10)
+{
+_putchar(j / 10 + '0');
+}
+_putchar(j % 10 + '0');
+}
+_putchar('\n');
+}
+}
