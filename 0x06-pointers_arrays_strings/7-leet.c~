@@ -1,0 +1,28 @@
+#include "main.h"
+
+/**
+* leet - codes the message given to it
+* @a: values of the letters
+* @b: numbeircal values 
+* Return: the encoded character
+*/
+
+char *leet(char *c)
+{
+char *a = "aAeEoOtTlL";
+char *b = "4433007711";
+
+int i;
+int j;
+for (i = 0; c[i] != '\0'; i++)
+{
+for (j = 0; j < i; j++)
+{
+if (c[i] == a[i])
+{
+c[i] = b[i];
+}
+return (c);
+}
+}
+}
