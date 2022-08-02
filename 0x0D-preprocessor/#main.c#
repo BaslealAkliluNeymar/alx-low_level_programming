@@ -1,0 +1,10 @@
+#include <stdlib.h>
+/**
+ * main - prints the name fo the file it was copied from 
+ * Return: :"::
+
+int main(void)
+{
+printf("%s", __FILE__);
+return 0;
+}
